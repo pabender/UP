@@ -8,5 +8,8 @@ MagPi
 .cache/
 .java/
 .jmri/log/
+.ssh
+.gnupg
 .wget-hsts
+.gitconfig
 JMRI.4.16+R6f9aced.tgz
