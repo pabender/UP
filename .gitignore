@@ -1,0 +1,12 @@
+Desktop
+Downloads
+MagPi
+.xsession-errors*
+.Xauthority
+.bash_history
+.bash_logout
+.cache/
+.java/
+.jmri/log/
+.wget-hsts
+JMRI.4.16+R6f9aced.tgz

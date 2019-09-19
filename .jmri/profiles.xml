@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profileConfig>
+  <profiles>
+    <profile id="RealHardware.3f2dfab8" path="settings:RealHardware.jmri/" />
+    <profile id="Simulator.3f48b37c" path="settings:Simulator.jmri/" />
+  </profiles>
+  <searchPaths>
+    <path path="settings:" default="true" />
+  </searchPaths>
+</profileConfig>

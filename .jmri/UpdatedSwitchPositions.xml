@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/xml/XSLT/panelfile-2-9-6.xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>2</major>
+    <minor>11</minor>
+    <test>3</test>
+    <modifier>.3</modifier>
+  </jmriversion>
+  <turnouts class="jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <turnout systemName="XT1" userName="B0 Crossover M1 to M2" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT1</systemName>
+      <userName>B0 Crossover M1 to M2</userName>
+    </turnout>
+    <turnout systemName="XT13" userName="Switch 13" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT13</systemName>
+      <userName>Switch 13</userName>
+    </turnout>
+    <turnout systemName="XT14" userName="Switch 14" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT14</systemName>
+      <userName>Switch 14</userName>
+    </turnout>
+    <turnout systemName="XT17" userName="Switch 17" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT17</systemName>
+      <userName>Switch 17</userName>
+    </turnout>
+    <turnout systemName="XT18" userName="Staging 3 Switch to S17 From Staging 1" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT18</systemName>
+      <userName>Staging 3 Switch to S17 From Staging 1</userName>
+    </turnout>
+    <turnout systemName="XT19" userName="Staging 3 Switch to S17 &amp; S18 From Staging 1" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT19</systemName>
+      <userName>Staging 3 Switch to S17 &amp; S18 From Staging 1</userName>
+    </turnout>
+    <turnout systemName="XT2" userName="B0 Crossover M2 to M1" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT2</systemName>
+      <userName>B0 Crossover M2 to M1</userName>
+    </turnout>
+    <turnout systemName="XT21" userName="Staging 2 Ladder from WC Junctinon to S15 &amp; S16" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT21</systemName>
+      <userName>Staging 2 Ladder from WC Junctinon to S15 &amp; S16</userName>
+    </turnout>
+    <turnout systemName="XT22" userName="Staging 2 Ladder from WC Junctinon to S15" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT22</systemName>
+      <userName>Staging 2 Ladder from WC Junctinon to S15</userName>
+    </turnout>
+    <turnout systemName="XT25" userName="Staging 1 Crossover M2 to M1" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT25</systemName>
+      <userName>Staging 1 Crossover M2 to M1</userName>
+    </turnout>
+    <turnout systemName="XT26" userName="Staging 1 Ladder to M1 &amp; S9" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT26</systemName>
+      <userName>Staging 1 Ladder to M1 &amp; S9</userName>
+    </turnout>
+    <turnout systemName="XT269" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT269</systemName>
+    </turnout>
+    <turnout systemName="XT27" userName="Staging 1 Ladder to S7 &amp; S8" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT27</systemName>
+      <userName>Staging 1 Ladder to S7 &amp; S8</userName>
+    </turnout>
+    <turnout systemName="XT28" userName="Staging 1 Ladder to S9" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT28</systemName>
+      <userName>Staging 1 Ladder to S9</userName>
+    </turnout>
+    <turnout systemName="XT29" userName="Staging 1 Ladder to S5 &amp; S6" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT29</systemName>
+      <userName>Staging 1 Ladder to S5 &amp; S6</userName>
+      <comment />
+    </turnout>
+    <turnout systemName="XT3" userName="Switch to Programming Track" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT3</systemName>
+      <userName>Switch to Programming Track</userName>
+    </turnout>
+    <turnout systemName="XT30" userName="Staging 1 Ladder to S7" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT30</systemName>
+      <userName>Staging 1 Ladder to S7</userName>
+    </turnout>
+    <turnout systemName="XT32" userName="Staging 1 Ladder to S3 &amp; S4" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT32</systemName>
+      <userName>Staging 1 Ladder to S3 &amp; S4</userName>
+    </turnout>
+    <turnout systemName="XT33" userName="Staging 1 Ladder to S3" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT33</systemName>
+      <userName>Staging 1 Ladder to S3</userName>
+    </turnout>
+    <turnout systemName="XT34" userName="Staging 1 Ladder to S1 &amp; S2" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT34</systemName>
+      <userName>Staging 1 Ladder to S1 &amp; S2</userName>
+    </turnout>
+    <turnout systemName="XT35" userName="Staging 1 Ladder to M2" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT35</systemName>
+      <userName>Staging 1 Ladder to M2</userName>
+    </turnout>
+    <turnout systemName="XT36" userName="Staging 1 Ladder to S10" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT36</systemName>
+      <userName>Staging 1 Ladder to S10</userName>
+    </turnout>
+    <turnout systemName="XT37" userName="Staging 1 Ladder to S11" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT37</systemName>
+      <userName>Staging 1 Ladder to S11</userName>
+    </turnout>
+    <turnout systemName="XT38" userName="Staging 1 Ladder to S12" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT38</systemName>
+      <userName>Staging 1 Ladder to S12</userName>
+    </turnout>
+    <turnout systemName="XT39" userName="Staging 1 Ladder to S13" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT39</systemName>
+      <userName>Staging 1 Ladder to S13</userName>
+    </turnout>
+    <turnout systemName="XT41" userName="Staging 1 Ladder to S3&amp;4 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT41</systemName>
+      <userName>Staging 1 Ladder to S3&amp;4 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT42" userName="Staging 1 Ladder to S2 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT42</systemName>
+      <userName>Staging 1 Ladder to S2 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT43" userName="Staging 1 Ladder to S5&amp;6 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT43</systemName>
+      <userName>Staging 1 Ladder to S5&amp;6 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT44" userName="Staging 1 Ladder to S4 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT44</systemName>
+      <userName>Staging 1 Ladder to S4 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT45" userName="Staging 1 Ladder to S7&amp;8 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT45</systemName>
+      <userName>Staging 1 Ladder to S7&amp;8 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT46" userName="Staging 1 Ladder to S6 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT46</systemName>
+      <userName>Staging 1 Ladder to S6 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT47" userName="Staging 1 Ladder to S9 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT47</systemName>
+      <userName>Staging 1 Ladder to S9 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT48" userName="Staging 1 Ladder to S8 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT48</systemName>
+      <userName>Staging 1 Ladder to S8 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT49" userName="Staging 1 Ladder to M2 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT49</systemName>
+      <userName>Staging 1 Ladder to M2 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT5" userName="Switch 5" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT5</systemName>
+      <userName>Switch 5</userName>
+      <comment>Check feedback entries</comment>
+    </turnout>
+    <turnout systemName="XT50" userName="Staging 1 Ladder to S10 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT50</systemName>
+      <userName>Staging 1 Ladder to S10 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT51" userName="Staging 1 Ladder to S11 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT51</systemName>
+      <userName>Staging 1 Ladder to S11 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT52" userName="Staging 1 Ladder to S12 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT52</systemName>
+      <userName>Staging 1 Ladder to S12 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT53" userName="Staging 1 Ladder to S13 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT53</systemName>
+      <userName>Staging 1 Ladder to S13 from Return Loop</userName>
+      <comment />
+    </turnout>
+    <turnout systemName="XT54" userName="Staging 1 Ladder M2 to Staging 3" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT54</systemName>
+      <userName>Staging 1 Ladder M2 to Staging 3</userName>
+    </turnout>
+    <turnout systemName="XT55" userName="Staging 1 Ladder to S1&amp;2 from Return Loop" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT55</systemName>
+      <userName>Staging 1 Ladder to S1&amp;2 from Return Loop</userName>
+    </turnout>
+    <turnout systemName="XT57" userName="Staging 3 Switch to S17 From Smithfield" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT57</systemName>
+      <userName>Staging 3 Switch to S17 From Smithfield</userName>
+    </turnout>
+    <turnout systemName="XT58" userName="Staging 3 Switch to S17 &amp; S18 From Smithfield" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT58</systemName>
+      <userName>Staging 3 Switch to S17 &amp; S18 From Smithfield</userName>
+    </turnout>
+    <turnout systemName="XT6" userName="Switch 6" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT6</systemName>
+      <userName>Switch 6</userName>
+    </turnout>
+    <turnout systemName="XT61" userName="Staging 2 Ladder to S15" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT61</systemName>
+      <userName>Staging 2 Ladder to S15</userName>
+    </turnout>
+    <turnout systemName="XT62" userName="Staging 2 Ladder to S15 &amp; S16" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT62</systemName>
+      <userName>Staging 2 Ladder to S15 &amp; S16</userName>
+    </turnout>
+    <turnout systemName="XT65" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT65</systemName>
+    </turnout>
+    <turnout systemName="XT9" userName="Switch 9" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT9</systemName>
+      <userName>Switch 9</userName>
+    </turnout>
+  </turnouts>
+  <turnouts class="jmri.managers.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <turnout systemName="IT1" userName="S5 Top Green" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>IT1</systemName>
+      <userName>S5 Top Green</userName>
+    </turnout>
+    <turnout systemName="IT2" userName="S5 Top Yellow" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>IT2</systemName>
+      <userName>S5 Top Yellow</userName>
+    </turnout>
+    <turnout systemName="IT3" userName="S5 Top Red" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>IT3</systemName>
+      <userName>S5 Top Red</userName>
+    </turnout>
+    <turnout systemName="IT4" userName="S5 Bottom Head Red" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>IT4</systemName>
+      <userName>S5 Bottom Head Red</userName>
+    </turnout>
+    <turnout systemName="IT5" userName="S5 Bottom Head Yellow" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>IT5</systemName>
+      <userName>S5 Bottom Head Yellow</userName>
+    </turnout>
+    <turnout systemName="IT6" userName="S5 Bottom Head Green" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>IT6</systemName>
+      <userName>S5 Bottom Head Green</userName>
+    </turnout>
+  </turnouts>
+  <sensors class="jmri.jmrix.lenz.configurexml.XNetSensorManagerXml">
+    <sensor systemName="XS513" inverted="false">
+      <systemName>XS513</systemName>
+    </sensor>
+    <sensor systemName="XS514" inverted="false" userName="Block 2">
+      <systemName>XS514</systemName>
+      <userName>Block 2</userName>
+    </sensor>
+    <sensor systemName="XS515" inverted="false" userName="Block 3 (Diamond)">
+      <systemName>XS515</systemName>
+      <userName>Block 3 (Diamond)</userName>
+    </sensor>
+    <sensor systemName="XS516" inverted="false" userName="Block B4">
+      <systemName>XS516</systemName>
+      <userName>Block B4</userName>
+    </sensor>
+    <sensor systemName="XS517" inverted="false" userName="Block B4A">
+      <systemName>XS517</systemName>
+      <userName>Block B4A</userName>
+    </sensor>
+    <sensor systemName="XS518" inverted="false" userName="Block B5">
+      <systemName>XS518</systemName>
+      <userName>Block B5</userName>
+    </sensor>
+    <sensor systemName="XS519" inverted="false" userName="Block 21">
+      <systemName>XS519</systemName>
+      <userName>Block 21</userName>
+    </sensor>
+    <sensor systemName="XS520" inverted="false" userName="Block 22">
+      <systemName>XS520</systemName>
+      <userName>Block 22</userName>
+    </sensor>
+    <sensor systemName="XS521" inverted="false" userName="Block 6">
+      <systemName>XS521</systemName>
+      <userName>Block 6</userName>
+    </sensor>
+    <sensor systemName="XS522" inverted="false" userName="Block 7">
+      <systemName>XS522</systemName>
+      <userName>Block 7</userName>
+    </sensor>
+    <sensor systemName="XS523" inverted="false" userName="Block 8">
+      <systemName>XS523</systemName>
+      <userName>Block 8</userName>
+    </sensor>
+    <sensor systemName="XS524" inverted="false" userName="Block 9">
+      <systemName>XS524</systemName>
+      <userName>Block 9</userName>
+    </sensor>
+    <sensor systemName="XS525" inverted="false" userName="Block 10">
+      <systemName>XS525</systemName>
+      <userName>Block 10</userName>
+    </sensor>
+    <sensor systemName="XS526" inverted="false" userName="Block 11">
+      <systemName>XS526</systemName>
+      <userName>Block 11</userName>
+    </sensor>
+    <sensor systemName="XS527" inverted="false" userName="Block 12">
+      <systemName>XS527</systemName>
+      <userName>Block 12</userName>
+    </sensor>
+    <sensor systemName="XS528" inverted="false" userName="Block 13">
+      <systemName>XS528</systemName>
+      <userName>Block 13</userName>
+    </sensor>
+    <sensor systemName="XS529" inverted="false" userName="Block 0">
+      <systemName>XS529</systemName>
+      <userName>Block 0</userName>
+    </sensor>
+    <sensor systemName="XS530" inverted="false" userName="Block 1">
+      <systemName>XS530</systemName>
+      <userName>Block 1</userName>
+    </sensor>
+    <sensor systemName="XS531" inverted="false" userName="Block 20">
+      <systemName>XS531</systemName>
+      <userName>Block 20</userName>
+    </sensor>
+    <sensor systemName="XS532" inverted="false" userName="Block 23">
+      <systemName>XS532</systemName>
+      <userName>Block 23</userName>
+    </sensor>
+    <sensor systemName="XS533" inverted="false">
+      <systemName>XS533</systemName>
+    </sensor>
+    <sensor systemName="XS534" inverted="false">
+      <systemName>XS534</systemName>
+    </sensor>
+    <sensor systemName="XS535" inverted="false">
+      <systemName>XS535</systemName>
+    </sensor>
+    <sensor systemName="XS536" inverted="false">
+      <systemName>XS536</systemName>
+    </sensor>
+    <sensor systemName="XS537" inverted="false" userName="Block 14">
+      <systemName>XS537</systemName>
+      <userName>Block 14</userName>
+    </sensor>
+    <sensor systemName="XS538" inverted="false" userName="Block 15">
+      <systemName>XS538</systemName>
+      <userName>Block 15</userName>
+    </sensor>
+    <sensor systemName="XS539" inverted="false" userName="Block 17">
+      <systemName>XS539</systemName>
+      <userName>Block 17</userName>
+    </sensor>
+    <sensor systemName="XS540" inverted="false" userName="Block 18">
+      <systemName>XS540</systemName>
+      <userName>Block 18</userName>
+    </sensor>
+    <sensor systemName="XS541" inverted="false" userName="Block 19">
+      <systemName>XS541</systemName>
+      <userName>Block 19</userName>
+    </sensor>
+  </sensors>
+  <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
+    <signalhead class="cats.jmri.configurexml.HWSignalHeadXml" systemName="CATS:SignalHead:S5_0" userName="S5 Top Head" />
+    <signalhead class="cats.jmri.configurexml.SWSignalHeadXml" systemName="CATS:SignalHead:S5_1" userName="S5 Bottom Head" />
+  </signalheads>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory systemName="IMOCCUPANCYLENGTH_1" value="0">
+      <systemName>IMOCCUPANCYLENGTH_1</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_2" value="0">
+      <systemName>IMOCCUPANCYLENGTH_2</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_3" value="0">
+      <systemName>IMOCCUPANCYLENGTH_3</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_4" value="0">
+      <systemName>IMOCCUPANCYLENGTH_4</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_5" value="0">
+      <systemName>IMOCCUPANCYLENGTH_5</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_MAX" value="0">
+      <systemName>IMOCCUPANCYLENGTH_MAX</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sun Jul 03 00:14:11 CDT 2011</date>
+      <filename>JMRI version 2.11.3 starts under Java 1.6.0_26 at Sun Jul 03 00:14:11 CDT 2011</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Jul 03 00:14:13 CDT 2011</date>
+      <filename>cats.cshConfig2.xml</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Jul 03 00:15:06 CDT 2011</date>
+      <filename>CorrectSwitchPossitions.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Tue Jun 28 14:53:40 PDT 2011</date>
+          <filename>JMRI version 2.10 starts under Java 1.6.0 at Tue Jun 28 14:53:40 PDT 2011</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Tue Jun 28 14:53:42 PDT 2011</date>
+          <filename>Per-Layout-WIP.xml</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Tue Jun 28 14:53:43 PDT 2011</date>
+          <filename>SimpleConfig2.xml</filename>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Tue Jun 28 15:58:58 PDT 2011</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sun Jul 03 13:24:47 CDT 2011</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 2.11.3 on Sun Jul 03 13:24:47 CDT 2011 $Id: XmlFile.java,v 1.57 2010/10/15 04:13:38 jacobsen Exp $-->
+</layout-config>
+
