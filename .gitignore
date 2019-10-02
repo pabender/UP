@@ -12,4 +12,8 @@ MagPi
 .gnupg
 .wget-hsts
 .gitconfig
+.viminfo
+.lesshst
+.debian-edu
+.local
 JMRI.4.16+R6f9aced.tgz

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <nodeIdentityConfig>
-  <nodeIdentity nodeIdentity="jmri-DCA6320B3F77" /><storageIdentity storageIdentity="f14d6ee2-5392-4b5e-84f4-b2cc61246015" /><uuid uuid="pfnATjtJJSDitZRRWGjgav" /><formerIdentities>
-    <nodeIdentity nodeIdentity="jmri-pfnATjtJJSDitZRRWGjgav" /><nodeIdentity nodeIdentity="jmri-DCA6320B3F77" /><nodeIdentity nodeIdentity="f14d6ee2-5392-4b5e-84f4-b2cc61246015" />
+  <nodeIdentity nodeIdentity="jmri-DCA6320B3F77" /><storageIdentity storageIdentity="8d34d89f-b6c8-4e14-9645-5fc2a93ede70" /><uuid uuid="iZZ0j80Xe2ujzfx6kOpS3V" /><formerIdentities>
+    <nodeIdentity nodeIdentity="jmri-A51BDA53844C" /><nodeIdentity nodeIdentity="jmri-iZZ0j80Xe2ujzfx6kOpS3V" /><nodeIdentity nodeIdentity="8d34d89f-b6c8-4e14-9645-5fc2a93ede70" /><nodeIdentity nodeIdentity="jmri-DCA6320B3F77" /><nodeIdentity nodeIdentity="jmri-B827EBFA06DC" /><nodeIdentity nodeIdentity="jmri-23A80CA3A86F" />
   </formerIdentities>
 </nodeIdentityConfig>

@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=PanelPro
+Exec=sh /home/pi/StartUp.sh
