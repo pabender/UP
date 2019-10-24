@@ -112,4 +112,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-. ~/Startup-Faceless.sh
+. ~/StartUp-Faceless.sh
