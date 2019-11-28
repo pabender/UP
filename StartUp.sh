@@ -7,6 +7,10 @@ unset ftp_proxy
 # Add an alias ip address to make sure the server can be found.
 sudo ip address add 192.168.1.99/24 dev eth0
 
+# update java
+cd /home/pi
+./updatejava.sh
+
 #check for updates
 cd /home/pi
 git pull
