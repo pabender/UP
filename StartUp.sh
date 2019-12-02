@@ -8,8 +8,8 @@ unset ftp_proxy
 sudo ip address add 192.168.1.99/24 dev eth0
 
 # update java
-cd /home/pi
-./updatejava.sh
+#cd /home/pi
+#./updatejava.sh
 
 #check for updates
 cd /home/pi
