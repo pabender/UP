@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.lenz.li100f.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Lenz" port="ttyUSB0" speed="9600" systemPrefix="X" userName="XpressNet">
-            <options>
-                <option>
-                    <name>FlowControl</name>
-                    <value>hardware flow control (recommended)</value>
-                </option>
-            </options>
+        <connection xmlns="" class="jmri.jmrix.lenz.xnetsimulator.configurexml.ConnectionConfigXml" disabled="no" systemPrefix="X" userName="XpressNet">
+            <options/>
         </connection>
-        <connection xmlns="" class="jmri.jmrix.cmri.serial.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="ttyUSB1" speed="9600" systemPrefix="C" userName="C/MRI">
+        <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="" speed="" systemPrefix="C" userName="C/MRI">
             <options/>
             <polllist pollseq="1,2,3"/>
             <node name="1">
@@ -47,9 +42,4 @@
             </node>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmris.simpleserver.SimpleServerAction" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-    </startup>
 </auxiliary-configuration>

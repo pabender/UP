@@ -16,6 +16,10 @@ MagPi
 .lesshst
 .debian-edu
 .local
-.jmri/RealHardware.jmri/profile/*/*.bak
+.jmri/**/*.bak
 .jmri/nodeIdentity.xml
 JMRI.4.16+R6f9aced.tgz
+update
+release
+release2043.zip
+JMRI

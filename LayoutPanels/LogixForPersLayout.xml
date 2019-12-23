@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/xml/XSLT/panelfile-2-9-6.xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>2</major>
+    <minor>11</minor>
+    <test>3</test>
+    <modifier>.3</modifier>
+  </jmriversion>
+  <turnouts class="jmri.jmrix.lenz.configurexml.XNetTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <turnout systemName="XT6" userName="Switch 6" feedback="MONITORING" inverted="false" automate="Default">
+      <systemName>XT6</systemName>
+      <userName>Switch 6</userName>
+    </turnout>
+  </turnouts>
+  <sensors class="jmri.jmrix.lenz.configurexml.XNetSensorManagerXml">
+    <sensor systemName="XS514" inverted="false" userName="Real Block 2">
+      <systemName>XS514</systemName>
+      <userName>Real Block 2</userName>
+    </sensor>
+    <sensor systemName="XS516" inverted="false" userName="Block B4">
+      <systemName>XS516</systemName>
+      <userName>Block B4</userName>
+    </sensor>
+    <sensor systemName="XS517" inverted="false" userName="Real Block B4A">
+      <systemName>XS517</systemName>
+      <userName>Real Block B4A</userName>
+    </sensor>
+    <sensor systemName="XS518" inverted="false" userName="Real Block B5">
+      <systemName>XS518</systemName>
+      <userName>Real Block B5</userName>
+    </sensor>
+    <sensor systemName="XS521" inverted="false" userName="Real Block 6">
+      <systemName>XS521</systemName>
+      <userName>Real Block 6</userName>
+    </sensor>
+    <sensor systemName="XS527" inverted="false" userName="Real Block 12">
+      <systemName>XS527</systemName>
+      <userName>Real Block 12</userName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor systemName="CS1001" inverted="false" userName="ADM Switch Lock">
+      <systemName>CS1001</systemName>
+      <userName>ADM Switch Lock</userName>
+    </sensor>
+    <sensor systemName="CS1004" inverted="false" userName="Brewery Switch Lock">
+      <systemName>CS1004</systemName>
+      <userName>Brewery Switch Lock</userName>
+    </sensor>
+    <sensor systemName="CS1005" inverted="false" userName="Waycross Yard Crossover Lock">
+      <systemName>CS1005</systemName>
+      <userName>Waycross Yard Crossover Lock</userName>
+    </sensor>
+    <sensor systemName="CS1006" inverted="false" userName="Yard Switch Lock">
+      <systemName>CS1006</systemName>
+      <userName>Yard Switch Lock</userName>
+    </sensor>
+    <sensor systemName="CS2003" inverted="false" userName="Coleman Industrial Lead Lock">
+      <systemName>CS2003</systemName>
+      <userName>Coleman Industrial Lead Lock</userName>
+    </sensor>
+  </sensors>
+  <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
+    <logix systemName="IX1" userName="Correct Block 4A" enabled="yes">
+      <systemName>IX1</systemName>
+      <userName>Correct Block 4A</userName>
+      <logixConditional systemName="IX1C1" order="0" />
+      <logixConditional systemName="IX1C2" order="1" />
+    </logix>
+    <logix systemName="IX2" userName="Block2Lock" enabled="yes">
+      <systemName>IX2</systemName>
+      <userName>Block2Lock</userName>
+      <logixConditional systemName="IX2C1" order="0" />
+    </logix>
+    <logix systemName="IX3" userName="Block12Lock" enabled="yes">
+      <systemName>IX3</systemName>
+      <userName>Block12Lock</userName>
+      <logixConditional systemName="IX3C1" order="0" />
+    </logix>
+    <logix systemName="IX4" userName="Block5Lock" enabled="yes">
+      <systemName>IX4</systemName>
+      <userName>Block5Lock</userName>
+      <logixConditional systemName="IX4C1" order="0" />
+    </logix>
+    <logix systemName="IX5" userName="Block6Lock" enabled="yes">
+      <systemName>IX5</systemName>
+      <userName>Block6Lock</userName>
+      <logixConditional systemName="IX5C1" order="0" />
+    </logix>
+  </logixs>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory systemName="IMOCCUPANCYLENGTH_1" value="0">
+      <systemName>IMOCCUPANCYLENGTH_1</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_2" value="0">
+      <systemName>IMOCCUPANCYLENGTH_2</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_3" value="0">
+      <systemName>IMOCCUPANCYLENGTH_3</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_4" value="0">
+      <systemName>IMOCCUPANCYLENGTH_4</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_5" value="0">
+      <systemName>IMOCCUPANCYLENGTH_5</systemName>
+    </memory>
+    <memory systemName="IMOCCUPANCYLENGTH_MAX" value="0">
+      <systemName>IMOCCUPANCYLENGTH_MAX</systemName>
+    </memory>
+  </memories>
+  <sensors class="jmri.managers.configurexml.InternalSensorManagerXml">
+    <sensor systemName="IS514" inverted="false" userName="Block 2">
+      <systemName>IS514</systemName>
+      <userName>Block 2</userName>
+    </sensor>
+    <sensor systemName="IS517" inverted="false" userName="Block B4A">
+      <systemName>IS517</systemName>
+      <userName>Block B4A</userName>
+    </sensor>
+    <sensor systemName="IS518" inverted="false" userName="Block B5">
+      <systemName>IS518</systemName>
+      <userName>Block B5</userName>
+    </sensor>
+    <sensor systemName="IS521" inverted="false" userName="Block 6">
+      <systemName>IS521</systemName>
+      <userName>Block 6</userName>
+    </sensor>
+    <sensor systemName="IS527" inverted="false" userName="Block 12">
+      <systemName>IS527</systemName>
+      <userName>Block 12</userName>
+    </sensor>
+  </sensors>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+    <conditional systemName="IX1C1" userName="Crossover Thrown" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+      <systemName>IX1C1</systemName>
+      <userName>Crossover Thrown</userName>
+      <conditionalStateVariable operator="4" negated="no" type="4" systemName="Switch 6" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="1" systemName="Block B4" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Block B4A" data="2" delay="0" string="" />
+      <conditionalAction option="2" type="9" systemName="Block B4A" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX1C2" userName="Crossover Straight" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+      <systemName>IX1C2</systemName>
+      <userName>Crossover Straight</userName>
+      <conditionalStateVariable operator="4" negated="no" type="3" systemName="Switch 6" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="1" systemName="Real Block B4A" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Block B4A" data="2" delay="0" string="" />
+      <conditionalAction option="2" type="9" systemName="Block B4A" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX2C1" userName="LockBlock2" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX2C1</systemName>
+      <userName>LockBlock2</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="ADM Switch Lock" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="Real Block 2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Block 2" data="2" delay="0" string="" />
+      <conditionalAction option="2" type="9" systemName="Block 2" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX3C1" userName="LockBlock12" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX3C1</systemName>
+      <userName>LockBlock12</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="Coleman Industrial Lead Lock" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="Real Block 12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Block 12" data="2" delay="0" string="" />
+      <conditionalAction option="2" type="9" systemName="Block 12" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX4C1" userName="LockBlock5" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX4C1</systemName>
+      <userName>LockBlock5</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="Brewery Switch Lock" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="Real Block B5" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="Waycross Yard Crossover Lock" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Block B5" data="2" delay="0" string="" />
+      <conditionalAction option="2" type="9" systemName="Block B5" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX5C1" userName="LockBlock6" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX5C1</systemName>
+      <userName>LockBlock6</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="Yard Switch Lock" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="Real Block 6" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="Waycross Yard Crossover Lock" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Block 6" data="2" delay="0" string="" />
+      <conditionalAction option="2" type="9" systemName="Block 6" data="4" delay="0" string="" />
+    </conditional>
+  </conditionals>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Fri Oct 07 00:25:11 CDT 2011</date>
+      <filename>JMRI version 2.11.3 starts under Java 1.6.0_26 at Fri Oct 07 00:25:10 CDT 2011</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Fri Oct 07 00:25:12 CDT 2011</date>
+      <filename>cats.cshConfig2.xml</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Fri Oct 07 00:25:33 CDT 2011</date>
+      <filename>LogixForPersLayout.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Mon Jul 04 17:21:37 CDT 2011</date>
+          <filename>JMRI version 2.11.3 starts under Java 1.6.0_26 at Mon Jul 04 17:21:37 CDT 2011</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Mon Jul 04 17:21:38 CDT 2011</date>
+          <filename>cats.cshConfig2.xml</filename>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Mon Jul 04 17:30:44 CDT 2011</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Fri Oct 07 00:51:29 CDT 2011</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 2.11.3 on Fri Oct 07 00:51:29 CDT 2011 $Id: XmlFile.java,v 1.57 2010/10/15 04:13:38 jacobsen Exp $-->
+</layout-config>
+
