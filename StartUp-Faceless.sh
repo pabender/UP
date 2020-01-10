@@ -7,7 +7,7 @@ unset ftp_proxy
 sudo ip address add 192.168.1.99/24 dev eth0
 
 cd /home/pi
-update.sh
+./update.sh
 
 #start jmri faceless 
 cd /home/pi/JMRI

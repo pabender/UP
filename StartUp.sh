@@ -9,12 +9,7 @@ sudo ip address add 192.168.1.99/24 dev eth0
 
 #run updates
 cd /home/pi
-update.sh
+./update.sh
 
-StartHeadedApp.sh
+./StartHeadedApp.sh
 
-#start panelpro
-
-cd /home/pi/JMRI
-#./PanelPro
-./cats.csh
