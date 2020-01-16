@@ -4,6 +4,10 @@
 cd /home/pi
 git pull
 
+#update jmri
+cd /home/pi
+./updatejmri.sh
+
 #get cats
 cd /home/pi
 wget http://cats4ctc.wikidot.com/local--files/main:downloads/release2043.zip
