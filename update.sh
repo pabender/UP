@@ -2,6 +2,8 @@
 
 #check for updates
 cd /home/pi
+#just in case there are local changes, stash them.
+git stash
 git pull
 
 #update jmri
