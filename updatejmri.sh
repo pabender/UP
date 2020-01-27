@@ -10,6 +10,13 @@ else
 	sudo shutdown -rf now
 fi
 
+if [ -e redownloaded ]
+then
+	echo ""
+else
+        rm JMRI.4.19.2+R846b684.tgz
+fi
+
 
 if [ -e JMRI.4.19.2+R846b684.tgz ]
 then
@@ -28,6 +35,7 @@ else
         cd /home/pi
         rm -r release
         rm release2043.zip
+	echo "" > redownloaded 
 fi
 
 
