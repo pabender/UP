@@ -51,5 +51,8 @@
         <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmris.simpleserver.SimpleServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.beantable.SensorTableAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
     </startup>
 </auxiliary-configuration>
