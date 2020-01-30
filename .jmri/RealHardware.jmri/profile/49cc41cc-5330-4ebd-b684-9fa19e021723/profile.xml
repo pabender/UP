@@ -5,7 +5,7 @@
             <options>
                 <option>
                     <name>FlowControl</name>
-                    <value>hardware flow control (recommended)</value>
+                    <value>no flow control</value>
                 </option>
             </options>
         </connection>
