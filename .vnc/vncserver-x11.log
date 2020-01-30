@@ -1,0 +1,25 @@
+VNC(R) Server 6.5.0 (r41824) ARMv6 (Aug 16 2019 00:23:07)
+Copyright (C) 2002-2019 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
+See https://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+https://www.realvnc.com/docs/6/foss.html
+OS: Raspbian GNU/Linux 10, Linux 4.19.66, armv7l
+<13> 2020-01-30T02:47:22.955Z communicationspi vncserver-x11[4349]: ServerManager: Server started
+<11> 2020-01-30T02:47:23.228Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:23.228Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:23.229Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
+<11> 2020-01-30T02:47:23.247Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:23.248Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
+<11> 2020-01-30T02:47:24.240Z communicationspi vncserver-x11[4349]: TcpListenerManager: not listening on [::]::5900: bind: Address already in use (98)
+<11> 2020-01-30T02:47:24.240Z communicationspi vncserver-x11[4349]: TcpListenerManager: not accepting connections: failed to listen on at least one address.
