@@ -4,7 +4,7 @@
         <connection xmlns="" class="jmri.jmrix.lenz.xnetsimulator.configurexml.ConnectionConfigXml" disabled="no" systemPrefix="X" userName="XpressNet">
             <options/>
         </connection>
-        <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="" speed="" systemPrefix="C" userName="C/MRI">
+        <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="" speed="19200" systemPrefix="C" userName="C/MRI">
             <options/>
             <polllist pollseq="1,2,3"/>
             <node name="1">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <warrantPreferences>
-  <!--Written by JMRI version 4.16+R6f9aced on Sun Dec 01 22:54:07 CST 2019-->
+  <!--Written by JMRI version 4.19.2+R846b684 on Mon Feb 24 21:27:26 CST 2020-->
   <layoutParams layoutScale="87.1" searchDepth="20">
     <shutdown>PROMPT</shutdown>
   </layoutParams>

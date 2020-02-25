@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nodeIdentityConfig>
-  <nodeIdentity nodeIdentity="jmri-DCA6320B3F74" /><storageIdentity storageIdentity="49cc41cc-5330-4ebd-b684-9fa19e021723" /><uuid uuid="eMmqBWtme47l_eM4gDaGBI" /><formerIdentities>
-    <nodeIdentity nodeIdentity="jmri-DCA6320B3F74" /><nodeIdentity nodeIdentity="49cc41cc-5330-4ebd-b684-9fa19e021723" /><nodeIdentity nodeIdentity="jmri-eMmqBWtme47l_eM4gDaGBI" />
-  </formerIdentities>
-</nodeIdentityConfig>
+<nodeIdentityConfig><nodeIdentity nodeIdentity="jmri-A7EE74DD71DA" /><storageIdentity storageIdentity="49cc41cc-5330-4ebd-b684-9fa19e021723" /><uuid uuid="eMmqBWtme47l_eM4gDaGBI" /><formerIdentities><nodeIdentity nodeIdentity="jmri-2104F9FBDC3D" /><nodeIdentity nodeIdentity="49cc41cc-5330-4ebd-b684-9fa19e021723" /><nodeIdentity nodeIdentity="jmri-DCA6320B3F74" /><nodeIdentity nodeIdentity="jmri-05975D90C1CF" /><nodeIdentity nodeIdentity="jmri-A7EE74DD71DA" /><nodeIdentity nodeIdentity="jmri-A96C5EA5DEDB" /><nodeIdentity nodeIdentity="jmri-eMmqBWtme47l_eM4gDaGBI" /></formerIdentities></nodeIdentityConfig>

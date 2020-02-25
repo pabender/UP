@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profileConfig>
   <profiles>
+    <profile id="LI100FAndCMRiSimulator.3ea66a9d" path="settings:LI100FAndCMRiSimulator.jmri/" />
     <profile id="LIUSBAndCMRI.3f6b2b51" path="settings:LIUSBAndCMRI.jmri/" />
     <profile id="RealHardware.3f2dfab8" path="settings:RealHardware.jmri/" />
     <profile id="Simulator.3f48b37c" path="settings:Simulator.jmri/" />
