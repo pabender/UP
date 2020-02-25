@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="XpressNet Simulator" name="Lenz"/>
+        <comboBox xmlns="" lastSelected="C/MRI Simulator" name="C/MRI"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="Description" order="2" width="554"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Column4" order="4" width="85"/>
+                <column hidden="false" name="Column5" order="5" width="65"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="0.0" locY="27.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="536.0" locX="575.0" locY="421.0" width="949.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="610.0" locX="100.0" locY="100.0" width="470.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="PanelPro" height="343.0" locX="681.0" locY="81.0" width="472.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="230.0" locX="0.0" locY="27.0" width="330.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="549.0" width="1742.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame" height="560.0" locX="20.0" locY="40.0" width="944.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="549.0" locX="0.0" locY="27.0" width="1742.0"/>
+    </windowDetails>
+</auxiliary-configuration>
