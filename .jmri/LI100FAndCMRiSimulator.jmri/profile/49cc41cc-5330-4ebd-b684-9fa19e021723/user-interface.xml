@@ -23,7 +23,7 @@
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="JMRI System console" height="372.0" width="872.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="469.0" locX="0.0" locY="0.0" width="987.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="469.0" locX="335.0" locY="431.0" width="987.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="PanelPro" height="263.0" locX="663.0" locY="153.0" width="558.0"/>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="30.0" locY="30.0" width="330.0"/>
