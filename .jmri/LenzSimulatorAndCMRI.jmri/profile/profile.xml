@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.cmri.serial.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="ttyUSB0" speed="9600" systemPrefix="C" userName="C/MRI">
+            <options/>
+            <polllist pollseq=""/>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.lenz.xnetsimulator.configurexml.ConnectionConfigXml" disabled="no" systemPrefix="X" userName="XpressNet">
+            <options/>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="preference:SensorsAndTurnouts.xml" type="XmlFile"/>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmris.simpleserver.SimpleServerAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+    </startup>
+</auxiliary-configuration>
