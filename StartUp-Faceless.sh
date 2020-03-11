@@ -11,4 +11,4 @@ cd /home/pi
 
 #start jmri faceless 
 cd /home/pi/JMRI
-./JmriFaceless -p /home/pi/.jmri/RealHardware.jmri
+./JmriFaceless -p /home/pi/.jmri/LenzSimulatorAndCMRI.jmri
